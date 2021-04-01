@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+html, body{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;/*why can't i just put this here*/
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    overflow-x:hidden ;
+
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    height: 13px;
+    background:white;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+a{
+    color: black;
+}
+a:hover{
+
+    color: grey;
+}
+
+/*navigation bar */
+
+
+
+
+#heading{
+    font-size: 3.5rem;
+    display: block;
+    text-align: center;
+    padding-top: 8.5rem;
+    padding-bottom: 3.5rem;
+    font-family: 'Dancing Script', cursive;
+    /* need to import a font*/
+}
+.active{
+    border-bottom: 2px solid grey;
+    color: grey;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.nav-item{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.social-icon{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.socials{
+    margin: 0.4rem 0;
+}
+.bg-colour{
+    background: #E6EEF0 ;
+}
+.bg-colour-1{
+    background:transparent;
+}
+.bg-colour-2{
+    background: #F0EAE6;
+}
+.bg-colour-3{
+    background: #E4E4E4;
+}
+
+/*end of nav bar styles*/
+
+/*home*/
+.main-background {
+    display: inline-block;
+    text-align: center;
+    width : 100%;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+.description-container{
+    margin: 2rem 5rem;
+    padding-top: 2rem;
+    padding-bottom: 3.5rem;
+    justify-content: center;
+}
+.des-connect{
+    margin: 8vh 2vw;
+    text-align: left;
+    
+}
+#my-description{
+    width: 30vw;
+    
+}
+.main-rec{
+    margin-top: 5rem;
+    height: 70vh;
+    width: 35vw;
+}
+#home-pic{
+    max-width: 60vw;
+    max-height: 40vh;
+}
+.gallery-title{
+    transform: translateX(55vw);
+
+    padding-bottom: 3rem;
+    font-size: 2.5rem;
+}
+.gallery{
+    transform: translateY(-40vh);
+}
+.gallery-pic-size{
+    max-width: 60vw;
+    max-height: 40vh;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+.ecuador-section{
+    text-align: right;
+    font-size: 0.85em;
+}
+.ecuador-des{
+    margin: 0; 
+}
+.gallery-ecuador{
+    width: 35vw;
+}
+
+/*gallery*/
+.gallery-box{
+    background: #F0EAE6;
+    width: 50vw;
+    height: 85vh;
+
+}
+.gallery-des{
+    padding-top: 10vh;
+}
+.container-1{
+    padding: 0;
+    float: right;
+}
+.photos-container{
+    transform: translateY(-70vh);
+    text-align: center;
+}
+#dates{
+    font-size: 0.83rem;
+}
+
+.photos-adjust{
+    margin-top: 5rem;
+    width: 70vw;
+}
+.description-adjust{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/*projects*/
+#projects-header{
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+.projects-nav{
+    justify-content: center;
+    padding: 3rem;
+}
+.padding-extra{
+    padding: .5rem 3rem ;
+}
+.section{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.subsection-1{
+    margin: 8% 0 8% 15%;
+    width: 45vw;
+    
+}
+
+/*movegreen*/
+.subsection-2{
+    margin: 20% 0 20% 2vw;
+
+}
+.extra-margin{
+    margin-left: 10vw;
+    
+}
+#movegreen-des{
+    width: 80%;
+}
+.mg-screen-adjust{
+    max-width: 20vw;
+    padding: 0 5px;
+}
+.mg-rec{
+    width: 45vw;
+    height: 150vh;
+}
+.shift-left{
+    transform: translateX(-10vw);
+}
+/*ewb*/
+.subsection-3{
+    width: 50%;
+    margin: 8% 15vw 20% 5vw;
+}
+.ewb-rec{
+    width: 30%;
+    height: 80vh;
+    transform:translateY(-10vh);
+
+}
+.subsection-4{
+    width: 30vw;
+    margin: 8% 5vw 20% 10vw;
+    
+}
+#ewb-pic{
+    max-width: 50vw;
+    max-height: 30vh;
+
+}
+.move-up{
+    transform: translate(8vw, -40vh);
+}
+
+/*ufinance*/
+#ufinance-photo{
+    max-width: 50vw;
+    max-height: 30vh;
+    transform: translateX(-20vw);
+    margin: 1rem 0;
+}
+.ufinance-rec{
+    width: 40vw;
+    height: 70vh;
+    
+}
