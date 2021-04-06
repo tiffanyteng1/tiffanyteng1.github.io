@@ -160,7 +160,7 @@ a:hover{
 .about-me-description{
     width: 40%;
     text-align: center;
-    transform: translateX(50vw);
+    transform: translateX(45vw);
     
 }
 .ecuador-section {
@@ -168,7 +168,7 @@ a:hover{
 }
 .pei figure {
     float: right;
-    transform: translate(13vw, -20vh);
+    transform: translate(-9vw, -20vh);
     height: 60vh;
 }
 
