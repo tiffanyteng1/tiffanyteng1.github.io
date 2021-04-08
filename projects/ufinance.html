@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../styles.css" />
    
     <!--<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">-->
 
@@ -15,14 +15,14 @@
     <!-- nav bar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-colour-2">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">tiffany teng</a>
+          <a class="navbar-brand" href="../index.html">tiffany teng</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">about me</a>
+                <a class="nav-link" href="../index.html">about me</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">projects</a>
@@ -63,50 +63,36 @@
         <div  id="projectsNav">
           <ul class="navbar-nav flex-row ">
             <li class="nav-item padding-extra">
-              <a class="nav-link active" aria-current="page" href="projects-movegreen.html">movegreen</a>
+              <a class="nav-link" href="blaze.html">blaze</a>
             </li>
             <li class="nav-item padding-extra">
-              <a class="nav-link"  href="projects-ewb.html">ewb</a>
+              <a class="nav-link" href="movegreen.html">movegreen</a>
             </li>
             <li class="nav-item padding-extra">
-              <a class="nav-link" href="projects-ufinance.html">ufinance</a>
+              <a class="nav-link active" aria-current="page" href="ufinance.html">ufinance</a>
             </li>
           </ul>
         </div>
        </div>
     </div>
 
-    <!--movegreen section-->
-    <div class="wrapper">
-      <div class="section d-flex">
-        <div class="subsection-1">
-          <h1 id="movegreen-title">movegreen</h1>
-          <p id="movegreen-des">A prototype for a mobile app that allows users to be conscious of their own carbon footprint while connecting with their community.</p>  
-          <a class="btn btn-outline" href="#demo">view live demo</a>
+    <!--ufinance section-->
+    <div class="position-relative">
+     <div class="position-absolute">
+        <div class="ufinance-rec bg-colour-3"></div>
+      </div>
+      <div class="position-absolute d-flex ufinance">
+        <img id="ufinance-photo" class="img-fluid rounded shadow" src="../photos/ufinance web app interface.png">
+        <div class="ufinance-description">
+          <h1 >ufinance</h1>
+          <p >A fully functional web application coded in react to help students keep track of their own income and expenses. Students are also able to see where they spent the most money to help with budgeting.</p>
+
+          <a class="btn btn-outline" target="_blank" href="https://github.com/tiffanyteng1/ufinance-app">view repo</a>
+          <a class="btn btn-outline" target="_blank" href="https://sf22o.csb.app/">see live web app</a>
         </div>
-        <img class="img-fluid mg-pic-adjust" src="photos/mg-landing-page.png">
       </div>
 
-      <div class="section d-flex">
-        <div class="mg-rec bg-colour-3"></div>
-      <div class="d-flex flex-column shift-left">
-        <!--<div class="section d-flex">
-          
-          <div class="subsection-2 ">
-            <p id="movegreen-des">Users are able to make their own profile and connect with their friends! Acts as both a carbon footprint tracker and travel journey!</p>
-          </div>
-        </div>-->
-        <div class="section d-flex">
-          <img class="img-fluid mg-pic-adjust more-img-padding" src="photos/mg-profile-page.png">
-          <img class="img-fluid mg-pic-adjust more-img-padding"src="photos/movegreen_front.png">
-          <div class="subsection-2 ">
-            <h2 id="movegreen-des" class="extra-margin">track your carbon footprint</h2>
-            <p id="movegreen-des" class="extra-margin"> Users track their own and can see their friends' travel desitnations with the associated carbon footprint (a 0-4 scale depending on the mode of transportation).</p>
-          </div>
-        </div>
-        <iframe id="demo" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fo0YRvOnuTMl47TxflvAcvR%2FHackAttack-2020-Copy%3Fnode-id%3D72%253A4%26scaling%3Dcontain%26page-id%3D0%253A1" allowfullscreen></iframe>
-        <a href="https://www.figma.com/proto/o0YRvOnuTMl47TxflvAcvR/HackAttack-2020-Copy?node-id=72%3A4&scaling=contain&page-id=0%3A1">view in separate tab</a>
-      </div>
+     
       
       </div>
     </div>

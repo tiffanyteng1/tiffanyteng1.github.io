@@ -178,6 +178,9 @@ a:hover{
 }
 
 /*ecuador-gallery*/
+.ecuador{
+    transform: translateX(20vw);
+}
 .gallery-box{
     width: 45vw;
     height: 85vh;
@@ -191,7 +194,7 @@ a:hover{
     font-size: 3rem;
 }
 .photos-container{
-  
+    margin: 3rem 0;
     flex-direction: column;
     text-align: center;
 }
@@ -206,8 +209,9 @@ a:hover{
  
 }
 .description-adjust{
-    margin-left: 13%;
-    margin-right: 13%;
+   
+    margin-left: 20vw;
+    margin-right: 20vw;
 }
 
 /*projects*/
@@ -228,7 +232,7 @@ a:hover{
 }
 
 .subsection-1{
-    margin: 8% 0 8% 15%;
+    margin: 8% 0 8% 17%;
     width: 45vw;
     
 }
@@ -236,21 +240,23 @@ a:hover{
     margin: 1.5rem 0;
 }
 
-/*movegreen*/
+/*movegreen & blaze*/
 .subsection-2{
     margin: 15vh 0 20vh 2vw;
+    padding-left: 8vw;
 
 }
+
 .extra-margin{
     margin-left: 7vw;
     
 }
-#movegreen-des{
-    width: 70%;
+.project-des{
+    width: 80%;
 }
-.mg-pic-adjust{
-    max-width: 15vw;
-    max-height: 45vh;
+.phone-pic-adjust{
+    max-width: 25vw;
+    max-height: 55vh;
     padding: 0 5px;
 }
 .mg-rec{
@@ -262,7 +268,11 @@ a:hover{
 }
 #demo{
     margin-top: 10vh;
+    flex-direction: column;
+    transform: none;
+
 }
+
 
 
 /*ewb*/
